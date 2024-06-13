@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { styles } from '../../styles'; // Path is correct if styles.js is in src/
 import { navLinks } from '../../constants'; // Path is correct if index.js is in src/constants
-import { logo, menu, close } from '../../assets/assets'; // Path is correct if assets.js is in src/assets
+import { logo, menu, close } from '../assets/assets'; // Path is correct if assets.js is in src/assets
 
 const Navbar = () => {
   const [active, setActive] = useState('');
